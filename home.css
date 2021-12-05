@@ -5,16 +5,17 @@
 }
 
 html {
-    background-color: rgba(0, 195, 255, 0.247);
+    background-image: url(twitback.jpg);
+    background-repeat: round;
+    background-size: 150px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
     padding: 10px;
-    width: 550px;
+    width: 500px;
     margin: auto;
     margin-top: 30px;
-    height: max-content;
     background-color: white;
     border-radius: 10px;
 }
@@ -38,7 +39,7 @@ img {
     margin-left: 20%;
     margin-right: 25%;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .items{
@@ -69,7 +70,7 @@ img {
     padding: 4px;
 }
 
-#or {
+.or {
     align-self: center;
 }
 
@@ -97,10 +98,11 @@ img {
     margin-bottom: 4px;
     padding: 4px;
     font-size: 15px;
-    color: rgba(0, 0, 0, 0.515);
+    opacity: 0.7;
 }
 
-a{
+
+a {
     color: rgb(0, 191, 255);
     text-decoration: none;
 }
@@ -117,4 +119,21 @@ a{
 .txtbox:focus, .txtbox:hover{
     border-width: thin;
     border-color: rgb(0, 217, 255);
+}
+
+.botnavbar {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-bottom: none;
+    height: 50px;
+    padding: 10px;
+    font-family: fantasy;
+    font-size: 20px;
+    width: 500px;
+    border-radius: 25px;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
