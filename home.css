@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgba(236, 52, 92, 0.2);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+    height: max-content;
+    background-color: white;
+    border-radius: 10px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+
+.innercontainer {
+    background-color: inherit;
+    display: flex;
+    flex-flow: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 20%;
+    margin-right: 25%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.items{
+    padding: 4px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#signin {
+    font-size: 23px;
+    margin-bottom: 30px;
+
+}
+
+.btn{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-radius: 18.5px;
+    width: 300px;
+    font-size: 17px;
+    border-style: solid;
+    height: 40px;
+    font-weight: bold;
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.2);
+    border-width: thin;
+    padding: 4px;
+}
+
+#or {
+    align-self: center;
+}
+
+.txtbox{
+    border-width: thin;
+    height: 55px;
+    width: 300px;
+    font-size: 17px;
+    text-align: start;
+    border-color: rgba(0, 0, 0, 0.2);
+    margin: 4px;
+    border-radius: 4px;
+    padding: 6px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#nxt {
+    background-color: black;
+    color: white;
+
+}
+
+#dont_have_an_account {
+    margin-top: 20px;
+    margin-bottom: 4px;
+    padding: 4px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.515);
+}
+
+a{
+    color: rgb(0, 191, 255);
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: rgba(0, 191, 255, 0.05);
+
+}
+
+#nxt:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.txtbox:focus, .txtbox:hover{
+    border-color: rgb(0, 217, 255);
+}
