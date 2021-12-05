@@ -10,9 +10,8 @@ html, body {
 }
 
 html {
-    background-image: url(twitback.jpg);
-    background-repeat: round;
-    background-size: 150px;
+    background-image: url(paint.webp);
+    background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
