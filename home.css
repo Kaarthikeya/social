@@ -11,7 +11,7 @@ html {
 
 .container {
     padding: 10px;
-    width: 600px;
+    width: 550px;
     margin: auto;
     margin-top: 30px;
     height: max-content;
@@ -61,6 +61,7 @@ img {
     font-size: 17px;
     border-style: solid;
     height: 40px;
+    color: black;
     font-weight: bold;
     background-color: white;
     border-color: rgba(0, 0, 0, 0.2);
@@ -114,5 +115,6 @@ a{
 }
 
 .txtbox:focus, .txtbox:hover{
+    border-width: thin;
     border-color: rgb(0, 217, 255);
 }
