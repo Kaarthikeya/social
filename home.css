@@ -10,8 +10,10 @@ html, body {
 }
 
 html {
-    background-image: url(paint.webp);
-    background-size: cover;
+    background-image: url(twit.png);
+    background-position-x:center;
+    background-position-y: -275px;
+    background-color:rgba(0, 225, 255, 0.205);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -107,7 +109,7 @@ img {
 
 
 a {
-    color: rgb(0, 191, 255);
+    color: #00bfff;
     text-decoration: none;
 }
 
@@ -142,7 +144,7 @@ a {
     margin-bottom: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
     html {
         background-image: none;
         background-color: rgba(0, 247, 255, 0.301);
@@ -150,14 +152,15 @@ a {
 
     .container{
         width: 400px;
-        margin-left:50px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .innercontainer{
-        margin-left: 8px;
-        margin-right: 8px;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
         justify-content: center;
-        align-content: center;
         align-items: center;
     }
 }
