@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
 
 html {
     background-image: url(twit.png);
@@ -141,25 +137,4 @@ a {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-@media screen and (max-width: 550px) {
-    html {
-        background-image: none;
-        background-color: rgba(0, 247, 255, 0.301);
-    }
-
-    .container{
-        width: 400px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .innercontainer{
-        flex-wrap: wrap;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-        align-items: center;
-    }
 }
